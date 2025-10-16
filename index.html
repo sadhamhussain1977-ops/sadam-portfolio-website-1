@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sadam Hussain — Portfolio</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial; margin:0; color:#0f172a; background:#f8fafc}
+    .hero{background:linear-gradient(90deg,#0ea5e9,#06b6d4); color:white; padding:48px 16px; text-align:center}
+    .container{max-width:980px;margin:32px auto;padding:0 16px}
+    .photo{width:150px;height:150px;border-radius:50%;object-fit:cover;border:6px solid white; box-shadow:0 8px 20px rgba(2,6,23,0.15)}
+    h1{font-size:28px;margin:12px 0}
+    p.lead{max-width:800px;margin:0 auto 12px}
+    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+    .card{background:white;padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+    footer{background:linear-gradient(90deg,#0ea5e9,#06b6d4);color:white;padding:24px;text-align:center;margin-top:32px}
+    a.button{display:inline-block;background:white;color:#0b74a8;padding:10px 16px;border-radius:8px;text-decoration:none;margin:6px 6px}
+    ul{padding-left:18px}
+    @media (min-width:640px){h1{font-size:36px}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <img src="photo.jpg" alt="Sadam Hussain" class="photo" />
+    <h1>Sadam Hussain S</h1>
+    <p class="lead">Cisco Certified Network Associate (CCNA) | Network & IT Support Engineer</p>
+    <div>
+      <a class="button" href="resume.pdf" download>Download Resume</a>
+      <a class="button" href="https://www.linkedin.com/in/sadam-hussain-s-12b35b234" target="_blank">LinkedIn</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>About Me</h2>
+      <p>I am a dedicated IT and networking professional with a Bachelor's degree in Computer Science Engineering and a Diploma in Computer Engineering. My focus lies in network infrastructure, troubleshooting, and IT support. Practical experience includes a Service Desk simulation via Forage (Datacom).</p>
+    </section>
+
+    <section class="card" style="margin-top:16px">
+      <h2>Core Skills</h2>
+      <div class="grid">
+        <div><strong>Networking</strong><p>VLANs, Subnetting, Routing Protocols, ACLs, VPN Configuration</p></div>
+        <div><strong>Tools & Platforms</strong><p>Cisco Packet Tracer, GNS3, Wireshark, Putty</p></div>
+        <div><strong>Operating Systems</strong><p>Cisco IOS, Windows Server, Linux (basic)</p></div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:16px">
+      <h2>Project</h2>
+      <p><strong>End-to-End Enterprise Network Design & Configuration</strong><br>
+      Designed a multi-router topology with multiple subnets; configured RIP, OSPF, EIGRP; integrated ACLs, NAT and VLANs; validated using Wireshark and Cisco CLI.</p>
+    </section>
+
+    <section class="card" style="margin-top:16px">
+      <h2>Certifications</h2>
+      <ul>
+        <li>CCNA — Suren Network Technologies (2025)</li>
+        <li>Service Desk Job Simulation — Datacom (Forage, 2025)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div>Contact: <a href="mailto:sadamhussain200116@gmail.com" style="color:white;text-decoration:underline">sadamhussain200116@gmail.com</a> • +971 564716571</div>
+  </footer>
+</body>
+</html>
